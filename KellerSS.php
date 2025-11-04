@@ -14,7 +14,7 @@ $magenta = "\e[35m";
 $azulbg = "\e[44m";
 $lazulbg = "\e[106m";
 $verdebg = "\e[42m";
-$lverdebg = "\e[102m";
+$laranja = "\e[38;5;208m";
 $amarelobg = "\e[43m";
 $lamarelobg = "\e[103m";
 $vermelhobg = "\e[101m";
@@ -2603,4 +2603,5 @@ escolheropcoes:
             die();
         }
       }
+
 ?>
