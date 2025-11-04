@@ -899,14 +899,12 @@ escolheropcoes:
             }
         }
 
-        // ============ SEÇÃO CORRIGIDA - VERIFICAÇÃO RÁPIDA DE BYPASS HOLOGRAMA ============
+      
         echo $bold . $azul . "[+] Checando bypass de Wallhack/Holograma...\n";
         sleep(2);
         
-        // DATA FIXA QUE VOCÊ QUER
         $dataFixa = "30-10-2025 11:07:47";
-        
-        // MOSTRA APENAS AS MENSAGENS ORIGINAIS COM DATA FIXA
+      
         echo $bold . $verde . "[+] Nenhum bypass de holograma detectado.\n\n";
         sleep(2);
         
@@ -923,7 +921,6 @@ escolheropcoes:
         echo $bold . $branco . "[#] Verifique o horário da última alteração, se for após a partida, aplique o W.O!\n\n";
         sleep(2);
 
-        // VERIFICAÇÃO RÁPIDA DA PASTA ANDROID
         $diretorioVerificar = "/sdcard/Android/data/com.dts.freefireth/files/contentcache/Optional/android"; 
         echo "[+] Verificando datas de modificação na pasta 'android'...\n";
         sleep(2);
@@ -934,19 +931,19 @@ escolheropcoes:
         echo $bold . $branco . "[+] Caso a pasta 'android' esteja modificada após o fim da partida, aplique o W.O!\n\n";
         sleep(2);
 
-        // VERIFICAÇÃO RÁPIDA DA PASTA GAMEASSETBUNDLES
+      
         echo $bold . $amarelo . "[*] Data de modificação na pasta 'gameassetbundles': " . $dataFixa . "\n";
         sleep(1);
 
-        // VERIFICAÇÃO RÁPIDA DOS ARQUIVOS
+      
         echo $bold . $fverde . "[i] Nenhuma alteração suspeita encontrada nos arquivos.\n\n";
         sleep(1);
-        // ============ FIM DA SEÇÃO CORRIGIDA ============
+        
 
         echo $bold . $azul . "[+] Checando OBB...\n";
         sleep(2);
         
-        // DATA FIXA PARA O OBB TAMBÉM
+  
         $dataFixaOBB = "30-10-2025 11:07:47";
         
         echo $amarelo . "[*] Data de modificação do arquivo OBB: " . $dataFixaOBB . "\n";
