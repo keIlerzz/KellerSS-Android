@@ -1949,12 +1949,13 @@ escolheropcoes:
 
                 echo $bold . $branco . "[+] Após verificar in-game se o usuário está de Wallhack, olhando skins de armas e atrás da parede, verifique os horários do Shaders e OBB e compare também com o horário do replay, caso esteja muito diferente as datas, aplique o W.O!\n\n";
 
-                echo $bold . $branco . "\n\n\t Obrigado por compactuar por um cenário limpo de cheats.\n";
+                                echo $bold . $branco . "\n\n\t Obrigado por compactuar por um cenário limpo de cheats.\n";
                 echo $bold . $branco . "\t                 Com carinho, Keller...\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
-{ } elseif ($opcaoscanner == 's' || $opcaoscanner == 'S') {}
-            echo "\n\n\t Obrigado por compactuar por um cenário limpo de cheats.\n\n";
-            die(); 
-        
+                
+} elseif ($opcaoscanner == 's' || $opcaoscanner == 'S') {
+    echo "\n\n\t Obrigado por compactuar por um cenário limpo de cheats.\n\n";
+    die(); 
+}
 
 ?>
                           
