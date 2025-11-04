@@ -337,11 +337,11 @@ escolheropcoes:
       goto escolheropcoes;
     }
     else
-    {
+    {}
         if ($opcaoscanner == "0") {
             system("clear");
             keller_banner();
-            
+        }
             // Verificar e instalar android-tools se necessário
             echo $bold . $azul . "[+] Verificando se o ADB está instalado...\n" . $cln;
             if (!shell_exec("adb version > /dev/null 2>&1"))
@@ -1499,6 +1499,7 @@ escolheropcoes:
             keller_banner();
         }
 ?>
+
 
 
 
