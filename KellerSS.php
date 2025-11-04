@@ -388,7 +388,7 @@ escolheropcoes:
                 keller_banner();
                 goto menuscanner;
             }
-        } elseif ($opcaoscanner == "1") {
+        } elseif ($opcaoscanner == "1") {}
             system("clear");
             keller_banner();
 
@@ -1499,6 +1499,7 @@ escolheropcoes:
             keller_banner();
         }
 ?>
+
 
 
 
