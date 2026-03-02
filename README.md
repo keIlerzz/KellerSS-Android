@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <em>Pensado e realizado em prol da comunidade de FreeFire, por KellerSS e AucerolaSS e SheikSS.</em>
+  <em>Pensado e realizado em prol da comunidade de FreeFire, por KellerSS.</em>
 </p>
 
 
@@ -43,7 +43,7 @@ O projeto tem como principal função facilitar o trabalho dos analistas em suas
 
 | Aplicativo                  | Descrição                |
 |----------------------------|---------------------------|
-| [Termux](https://cdn.discordapp.com/attachments/1348094420620279849/1353232408635248720/Termux_ALLIANCE.apk?ex=67eacaa4&is=67e97924&hm=d782777ad6e4d9b90eb62a19fb94b98efb4c4630a7a9383510884daf02cc7ab7&) | Terminal utilizado para rodar o scanner   |
+| [Termux](https://f-droid.org/repo/com.termux_1022.apk) | Terminal utilizado para rodar o scanner   |
 | [Tutorial](https://www.youtube.com/watch?v=RF7O1MHThsE&t=8s) | Tutorial ensinando a como utilizar   |
 
 
@@ -55,21 +55,21 @@ O projeto tem como principal função facilitar o trabalho dos analistas em suas
 #### <img width="2%" src="https://simpleicons.org/icons/termius.svg">&emsp13; Após abrir o Termux, dividindo a tela com o pareamento wifi aberto, rode os comandos abaixo:
 
 ```sh
- adb pair localhost:porta codigopareamento
+❯ adb pair localhost:porta codigopareamento
 
 ```
 
 #### <img width="2%" src="https://simpleicons.org/icons/termius.svg">&emsp13; Após parear, a porta irá atualizar, então suba nas opções e confira a nova porta.
 
 ```sh
- adb connect localhost:portaatualizada
+❯ adb connect localhost:portaatualizada
 
 ```
 
 #### <img width="2%" src="https://simpleicons.org/icons/termius.svg">&emsp13; Após parear e conectar corretamente, só rodar o código que irá baixar e executar o scanner.
 
 ```sh
- pkg install git php android-tools -y && rm -rf KellerSS-Android && git clone https://github.com/kellerzz/KellerSS-Android && cd KellerSS-Android && php KellerSS.php
+❯ pkg install git php android-tools -y && rm -rf KellerSS-Android && git clone https://github.com/kellerzz/KellerSS-Android && cd KellerSS-Android && php KellerSS.php
 
 ```
 
@@ -115,8 +115,7 @@ Um grande agradecimento aos membros abaixo por seu trabalho incrível e contribu
 
 
 <div style="text-align:; font-weight: bold; margin-bottom: 10px;">
-KellerㅤㅤSheikㅤ ㅤRibeiroㅤ PX  Hg     Aucerolaㅤ 
- ㅤ
+  ㅤKellerㅤㅤSheikㅤ ㅤRibeiroㅤㅤㅤPxㅤㅤㅤㅤHgㅤㅤApela
 </div>
 
 <table>
@@ -137,7 +136,7 @@ KellerㅤㅤSheikㅤ ㅤRibeiroㅤ PX  Hg     Aucerolaㅤ
       </a>
     </td>
     <td style="text-align: center;">
-      <a href="https://www.instagram.com/pedrww7_">
+      <a href="https://discord.gg/allianceoficial">
         <img src="https://i.imgur.com/8BUhE5T.jpeg" alt="PX" style="width: 50px; height: 50px;">
       </a>
     </td>
