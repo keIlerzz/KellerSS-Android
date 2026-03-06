@@ -1,4 +1,4 @@
-
+<php
 
 $branco = "\e[97m";
 $preto = "\e[30m\e[1m";
