@@ -115,7 +115,7 @@ Um grande agradecimento aos membros abaixo por seu trabalho incrível e contribu
 
 
 <div style="text-align:; font-weight: bold; margin-bottom: 10px;">
-  ㅤKellerㅤㅤSheikㅤ ㅤRibeiroㅤㅤㅤPxㅤㅤㅤㅤHgㅤㅤApela
+  ㅤKellerㅤㅤSheikㅤ ㅤRibeiroㅤㅤㅤPxㅤㅤㅤㅤHgㅤㅤAucerola
 </div>
 
 <table>
